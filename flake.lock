@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1756125398,
+        "narHash": "sha256-XexyKZpf46cMiO5Vbj+dWSAXOnr285GHsMch8FBoHbc=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "3b9f00d7a7bf68acd4c4abb9d43695afb04e03a5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-zig-15": {
+      "locked": {
+        "lastModified": 1755930537,
+        "narHash": "sha256-R4ph0ENp8SlpITKBPOimM0BwApQ3JMIGpAzF9slP7mg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "db48921d1a5ddf571543cfc3228b2da9979228e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "pull/435835/head",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-zig-15": "nixpkgs-zig-15",
+        "tree-sitter-zig": "tree-sitter-zig"
+      }
+    },
+    "tree-sitter-zig": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1753531597,
+        "narHash": "sha256-QAlYyeIwIH2p51Rt4cVpKkcT+JQvWlw1AII4122oQa8=",
+        "owner": "tree-sitter-grammars",
+        "repo": "tree-sitter-zig",
+        "rev": "b71affffdb4222ff2d2dea6e164f76603b0be6bc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tree-sitter-grammars",
+        "repo": "tree-sitter-zig",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
